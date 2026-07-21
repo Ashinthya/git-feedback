@@ -4,3 +4,9 @@ on:
   push:
     branches: [testing]
 
+jobs:
+  example:
+    run-on: ubuntu-latest
+    steps:
+      - name: Print
+      - run: echo "Hello World"
